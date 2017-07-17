@@ -10,9 +10,9 @@
     <head>
         <meta charset="UTF-8" />
         <title>Patrick's Guitars - Photo Gallery</title>
-        <link rel="stylesheet" href="../../css/top.css" />
-        <link rel="stylesheet" href="../../css/sidebar.css" />
-        <link rel="stylesheet" href="../../css/instruments.css" />
+        <link rel="stylesheet" href="../css/top.css" />
+        <link rel="stylesheet" href="../css/sidebar.css" />
+        <link rel="stylesheet" href="../css/instruments.css" />
         <script>
           function fadeToBlack(context) {
             //using these variables is faster
