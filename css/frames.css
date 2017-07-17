@@ -1,0 +1,58 @@
+body
+{
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+h1:first-child
+{
+    font-size:27px;
+    text-align:center;
+    margin-top:130px;
+}
+
+p
+{
+    color:#903f1c;
+    margin:20px 5px;
+    font-size:large;
+    line-height:150%;
+}
+
+
+#instrumentsFrame
+{
+    text-align:center;
+    background-image:url("../instrumentsFrame/Images/Background.jpg");
+}
+
+#sightsAndSoundsFrame
+{
+    text-align:center;
+    background-image:url("../sightsAndSoundsFrame/Images/Background.jpg");
+}
+
+#infoFrame
+{
+    background-image:url("../infoFrame/Images/Background.jpg");
+}
+
+#contactFrame
+{
+    background-image:url("../contactFrame/Images/Background.jpg");
+}
+
+a:link
+{
+    color:#1A6556;
+}
+a:visited 
+{
+    color:#03617c;
+}
+a:hover 
+{
+}
+a:active 
+{
+}
