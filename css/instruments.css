@@ -1,7 +1,7 @@
 #wrapper
 {
   position:relative;
-  margin:90px auto;
+  margin:10px auto;
   width:1350px;
 }
 
@@ -22,7 +22,7 @@
   -moz-box-shadow: 0px 0px 12px #000;
   -webkit-box-shadow: 0px 0px 12px #000;
   box-shadow: 0px 0px 12px #000;
-  height:800px
+  height:800px;
 }
 
 #right
@@ -30,51 +30,29 @@
   position:relative;
   float:left;
   margin-left:10px;
-  width:250px;
+  width:280px;
   height:800px;
+  overflow-y: scroll;
 }
 
 #display
 {
-  width:250px;
-  height:250px;
+  width:800px;
+  height:800px;
   background-color:black;
   float:right;
-  margin:10px;
 }
 
-.arrow {
-  margin:0px;
-  width:250px;
-  padding-top:50px;
-  opacity:.5;
-}
-
-.arrow:hover {
-  opacity:.8;
-}
-
-#upArrow {
-  z-index:5;
-  position:absolute;
-  top:0px;
-  left:0px;
-  background-image: url('../images/upArrow.jpg');
-}
-
-#downArrow {
-  z-index:5;
-  position:absolute;
-  bottom:0px;
-  left:0px;
-  background-image: url('../images/downArrow.jpg');
+#display img {
+	width:inherit;
+	opacity: 0;
 }
 
 #transparency {
   z-index:-5;
   position:fixed;
-  top:25px;
-  bottom:25px;
+  top:0px;
+  bottom:0px;
   width:100%;
   margin:0px auto;
   background:-webkit-gradient(linear, left top, left bottom, from(#c78740), to(#d7a163));
@@ -84,7 +62,7 @@
   opacity:.5;
 }
 
-.thumbs
+#right img
 {
   position:relative;
   clear:right;
@@ -97,12 +75,13 @@
   box-shadow: 1px 0px 4px #000;
 }
 
-.thumbs:hover {
+#right img:hover {
   left:3px;
   bottom:3px;
   -moz-box-shadow: 3px -2px 5px #000;
   -webkit-box-shadow: 3px -2px 5px #000;
   box-shadow: 3px -2px 5px #000;
+  cursor:pointer;
 }
 
 p {
