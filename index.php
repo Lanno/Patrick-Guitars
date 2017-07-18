@@ -11,9 +11,9 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>
 			window.onload = function() {
-				var dir = "./images";
+				var dir = "./gallery";
 
-				var fileList = <?php echo json_encode(scandir("images")); ?>;
+				var fileList = <?php echo json_encode(scandir("gallery")); ?>;
 
 				var cleanList = cleanFileList(fileList);
 				
