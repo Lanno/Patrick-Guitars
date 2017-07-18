@@ -2,7 +2,7 @@
 {
   position:relative;
   margin:10px auto;
-  width:1350px;
+  width:1370px;
 }
 
 #left
@@ -15,7 +15,7 @@
 #center 
 {
   float:left;
-  margin-left:10px;
+  margin:auto 20px;
   width:800px;
   border-left:0px solid black;
   border-right:0px solid black;
@@ -29,7 +29,6 @@
 {
   position:relative;
   float:left;
-  margin-left:10px;
   width:280px;
   height:800px;
   overflow-y: scroll;
