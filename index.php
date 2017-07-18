@@ -16,17 +16,16 @@
 				var cleanList = cleanFileList(fileList);
 				
 				var images = initImages(dir, cleanList);     
-
-				images[1].onload = function(){
-					$("#display").html(images[1]);
-					$(images[1]).animate({"opacity":1},500)
-				};
 				
 				var $right = $("#right");
 				
 				for (idx = 0; idx < images.length; idx++) {
 					$right.append(images[idx]);
 				}
+				
+				$("#about").click();
+				
+				$("#right img:first-child").click();
 			};
         </script>
     </head>
