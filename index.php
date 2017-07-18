@@ -5,8 +5,6 @@
 		<meta charset="UTF-8" />
 		<title>Patrick's Guitars - Photo Gallery</title>
 		<link rel="stylesheet" href="../css/top.css" />
-		<link rel="stylesheet" href="../css/sidebar.css" />
-		<link rel="stylesheet" href="../css/instruments.css" />
 		<script src="../js/common.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>
@@ -40,13 +38,13 @@
 		<div id="wrapper">
 			<div id="left">
 				<dl>
-					<dt id="hollow"></dt>
+					<dt id="about"></dt>
 					<dd></dd>
 
-					<dt id="semiHollow"></dt>
+					<dt id="build"></dt>
 					<dd></dd>
 
-					<dt id="solid"></dt>
+					<dt id="gallery"></dt>
 					<dd></dd>
 				</dl>
 			</div>
