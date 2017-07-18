@@ -7,6 +7,8 @@ body
 	background-image:url("../img/background - flame-maple.jpg");
 	background-size:cover;
     background-color:#e9d0b6;
+	font-family: "Times New Roman";
+	font-size: 25px;
 }
 
 #header
@@ -18,7 +20,7 @@ body
 {
   position:relative;
   margin:10px auto;
-  width:1370px;
+  width:1380px;
 }
 
 #left
@@ -28,10 +30,35 @@ body
   height:800px;
 }
 
+#left > div
+{
+	position:relative;
+	padding-top:190px;
+	width:250px;
+	background-color:gray;
+	-moz-box-shadow: -1px 0px 4px #000;
+	-webkit-box-shadow: -1px 0px 4px #000;
+	box-shadow: -1px 0px 4px #000;
+	margin: 37px 0px;
+}
+
+#left > div:first-child {
+	margin-top: 0px;
+}
+
+#left > div:hover {
+  right:3px;
+  bottom:3px;
+  -moz-box-shadow: -3px -2px 5px #000;
+  -webkit-box-shadow: -3px -2px 5px #000;
+  box-shadow: -3px -2px 5px #000;
+  cursor: pointer;
+}
+
 #center 
 {
   float:left;
-  margin:auto 20px;
+  margin:auto 25px;
   width:800px;
   border-left:0px solid black;
   border-right:0px solid black;
@@ -39,6 +66,7 @@ body
   -webkit-box-shadow: 0px 0px 12px #000;
   box-shadow: 0px 0px 12px #000;
   height:800px;
+  background-color: rgba(255,255,255,0.7);
 }
 
 #right
@@ -91,48 +119,42 @@ body
 }
 
 #right img:hover {
-  left:3px;
-  bottom:3px;
-  -moz-box-shadow: 3px -2px 5px #000;
-  -webkit-box-shadow: 3px -2px 5px #000;
-  box-shadow: 3px -2px 5px #000;
-  cursor:pointer;
-}
-
-p {
-    margin:10px;
-    font-size:large;
+	left:3px;
+	bottom:3px;
+	-moz-box-shadow: 3px -2px 5px #000;
+	-webkit-box-shadow: 3px -2px 5px #000;
+	box-shadow: 3px -2px 5px #000;
+	cursor:pointer;
 }
 
 .rightSidebar {
     padding-top:140px;
 }
 
-dl
-{
-  margin:0px;
+div.text {
+	opacity: 0;
 }
 
-dt
-{
-  position:relative;
-  padding-top:250px;
-  width:250px;
-  background-color:gray;
-  -moz-box-shadow: -1px 0px 4px #000;
-  -webkit-box-shadow: -1px 0px 4px #000;
-  box-shadow: -1px 0px 4px #000;
+div.text img {
+	display: block;
+	margin: 10px;
 }
 
-dt:hover {
-  right:3px;
-  bottom:3px;
-  -moz-box-shadow: -3px -2px 5px #000;
-  -webkit-box-shadow: -3px -2px 5px #000;
-  box-shadow: -3px -2px 5px #000;
+div.text p {
+    margin:10px;
 }
 
-dd
-{
-  margin-bottom:25px;
+#about {
+	background-image: url("../img/small guitar.JPG");
+	background-size: 250px 250px;
+}
+
+#build {
+	background-image: url("../img/sketch.JPG");
+	background-size: 250px 250px;
+}
+
+#gallery {
+	background-image: url("../img/hollow with amp.JPG");
+	background-size: 250px 250px;
 }
