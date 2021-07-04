@@ -7,7 +7,7 @@ from django.shortcuts import render
 def index(request):
 	extensions = ['jpg', 'jpeg', 'png']
 
-	gallery_dir = os.path.join(settings.BASE_DIR, 'patricks_guitars/static/gallery')
+	gallery_dir = os.path.join(settings.BASE_DIR, 'patrick_guitars/static/gallery')
 
 	filenames = []
 	for filename in os.listdir(gallery_dir):
