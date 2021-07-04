@@ -54,7 +54,9 @@ ROOT_URLCONF = 'patricks_guitars.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'patricks_guitars/templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
