@@ -1,11 +1,13 @@
 <!doctype html>
 
+{% load static %}
+
 <html>
     <head>
         <meta charset="UTF-8" />
         <title>Patrick's Guitars - Photo Gallery</title>
-        <link rel="stylesheet" href="../css/top.css" />
-        <script src="../js/common.js"></script>
+        <link rel="stylesheet" href="{% static 'css/top.css' %}" />
+        <script src="{% static 'js/common.js' %}"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         {{ gallery_filenames|json_script:"gallery_filenames" }}
         <script>
@@ -33,12 +35,12 @@
 
     <body> 
         <div id="header">
-            <img src="../img/title - vladimir script.png"/>
+            <img src="{% static 'img/title - vladimir script.png' %}"/>
         </div>
         <div id="wrapper">
             <div id="left">
                 <div id="about">
-                    <img src="img/about - white.png"/>
+                    <img src="{% static 'img/about - white.png' %}"/>
                 
                     <script>
                         $("#about").on("click", 
@@ -76,7 +78,7 @@
                 </div>
 
                 <div id="build">
-                    <img src="img/work - white.png"/>
+                    <img src="{% static 'img/work - white.png' %}"/>
                 
                     <script>
                         $("#build").on("click", 
@@ -114,7 +116,7 @@
                 </div>
 
                 <div id="gallery">
-                    <img src="img/gallery.png"/>
+                    <img src="{% static 'img/gallery.png' %}"/>
                 
                     <script>
                         $("#gallery").on("click", 
@@ -146,7 +148,7 @@
                 <div id="display"></div>
                 
                 <div id="aboutText" class="text">
-                    <img src="../img/about.png"/>
+                    <img src="{% static 'img/about.png' %}"/>
                 
                     <p>
                         Patrick's Guitars makes hand built guitars in Valley Center, CA. We specialize in electric guitars with varying degrees of acoustic charm, ranging from solid-body to hollow-body archtops with some unique semi-hollow concepts in between.
@@ -158,7 +160,7 @@
                 </div>
                 
                 <div id="buildText" class="text">
-                    <img src="../img/build.png"/>
+                    <img src="{% static 'img/build.png' %}"/>
                 
                     <p>
                         Each guitar is hand assembled with some pieces being carved and shaped one wood shaving at a time.
