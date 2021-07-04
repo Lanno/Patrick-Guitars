@@ -12,7 +12,7 @@
         {{ gallery_filenames|json_script:"gallery_filenames" }}
         <script>
             window.onload = function() {
-                var dir = "./gallery";
+                var dir = "{% static 'gallery' %}";
 
                 var fileList = JSON.parse(document.getElementById('gallery_filenames').textContent);
 
