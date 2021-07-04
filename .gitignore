@@ -1,3 +1,5 @@
 venv/
 patricks_guitars/patricks_guitars/__pycache__/
 static/
+
+patricks_guitars/db.sqlite3
